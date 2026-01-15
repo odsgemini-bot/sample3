@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-amber-50 text-amber-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .steam-particle {
+    @apply absolute bg-white/30 rounded-full blur-xl animate-steam;
+  }
+}
